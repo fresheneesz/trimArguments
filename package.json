@@ -1,5 +1,6 @@
 {"name":"trimArguments",
  "version":"1.0.0",
+ "main": "trimArguments.js",
  "dependencies":[],
  "repository": {
    "type": "git",
