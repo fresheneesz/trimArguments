@@ -8,7 +8,9 @@ module.exports = function(theArguments) {
     for(var n=args.length-1; n>=0; n--) {
         if(args[n] === undefined)
             count++
+        else
+            break
     }
-    args.splice(-0, count)
+    args.splice(args.length-count, count)
     return args
 }
